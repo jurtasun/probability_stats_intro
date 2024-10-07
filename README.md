@@ -11,7 +11,7 @@
 
 This course provides an introduction to the field of probability and statistical inference. The topics covered will include basic concepts on probability theory, inference, distributions, and hypothesis testing. The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
 
-The course is organized in three chapters, covering topics listed below. All will be followed by a practical session and hands-on coding, both in Python and R. No prior mathematical or programming experience on is required for the attendance of this course.
+The course is organized in three chapters, covering topics listed below. All will be followed by a practical session and hands-on coding, both in Python and R. No prior experience on statistics or programming is required for the attendance of this course.
 
 # Roadmap of the course
 
