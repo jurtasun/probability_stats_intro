@@ -15,19 +15,19 @@ The course is organized in three chapters, covering topics listed below. All wil
 
 # Roadmap of the course
 
-## Chapter 1 - Introduction to probability & random variables.
+## Chapter 1. Introduction to probability & random variables.
 
 - What is probability and random variables.
 - Discrete probability distributions; "mass" distributions.
 - Continuous probability distributions; "density" distributions.
 
-## Chapter 2: Momenta of a distribution & the Central Limit Theorem.
+## Chapter 2. Momenta of a distribution & the Central Limit Theorem.
 
 - Quantify how events are distributed. Momenta of a distribution.
 - Computing mean, variance, skewness, kurtosis.
 - The Law of Large Numbers (LLN) and the Central Limit Theorem (CLT).
 
-## Chapter 3: Introduction to hypothesis testing.
+## Chapter 3. Introduction to hypothesis testing.
 
 - Introduction to hypothesis testing. Prediction vs inference.
 - General approach. Quantify significance and p-values.
