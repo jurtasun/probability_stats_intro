@@ -17,21 +17,21 @@ The course is organized in three chapters, covering topics listed below. All wil
 
 ## Chapter 1 - Introduction to probability & random variables.
 
-- What is probability. Random variables.
-- Discrete probability distributions. "Mass" distributions.
-- Continuous probability distributions. "Density" distributions.
+- What is probability and random variables.
+- Discrete probability distributions; "mass" distributions.
+- Continuous probability distributions; "density" distributions.
 
-## Chapter 2: The Central Limit Theorem & confidence intervals.
+## Chapter 2: Momenta of a distribution & the Central Limit Theorem.
 
-- The Central Limit Theorem.
-- Confidence intervals and standard variables.
-- The z and t scores. The z distribution and student's t distribution.
+- Quantify how events are distributed. Momenta of a distribution.
+- Computing mean, variance, skewness, kurtosis.
+- The Law of Large Numbers (LLN) and the Central Limit Theorem (CLT).
 
 ## Chapter 3: Introduction to hypothesis testing.
 
-- Introduction to Hypothesis testing. Null and alternative hypothesis.
-- Quantify significance. Pearson p-values.
-- Comparing two means. Two sample t-test.
+- Introduction to hypothesis testing. Prediction vs inference.
+- General approach. Quantify significance and p-values.
+- Real example, comparing two means. Two sample t-test.
 
 ## Setup
 
@@ -43,17 +43,19 @@ NB no knowledge of programming is required for this workshop.
 
 1. Download this repository to your computer as a ZIP file and unpack it.
 
-2. Open JupyterLab (within Anaconda) and navigate to the unpacked directory to work with the .ipynb examples.
+2. Open the terminal and navigate to the unpacked directory to work with the .py / .R examples.
 
-3. Alternatively, you can run the notebooks online using Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnpinney/sampling_and_hypothesis_testing/master?urlpath=lab)
+3. Open a Codespace where we will be using either Visual Studio Code / RStudio fro the practical sessions.
+
+4. Alternatively, you can run the notebooks online using Binder: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnpinney/sampling_and_hypothesis_testing/master?urlpath=lab)
 
 
 ## Evaluation
 
 Your feedback is very important to the Graduate School as we are continually trying to improve the training we offer.
 
-At the end of the course, please help us by completing the evaluation form at
-http://bit.ly/rcds2021
+At the end of the course, please help us by completing the evaluation form at http://bit.ly/rcds2021
 
 
 <hr>
