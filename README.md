@@ -11,7 +11,7 @@
 
 This course provides an introduction to the field of probability and statistical inference. The topics covered will include basic concepts on probability theory, inference, distributions, and hypothesis testing. The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
 
-The course is organized in three chapters, covering topics listed below. All will be followed by a practical session and hands-on coding, both in Python and R. No prior experience is required for the attendance of this course.
+The course is organized in three chapters, covering topics listed below. All will be followed by a practical session and hands-on coding, both in Python and R. No prior mathematical or programming experience on is required for the attendance of this course.
 
 # Roadmap of the course
 
@@ -35,9 +35,9 @@ The course is organized in three chapters, covering topics listed below. All wil
 
 ## Setup
 
-We will be working with jupyter notebooks. The easiest way to access jupyter is via the Anaconda platform.
-Please install Anaconda from https://www.anaconda.com in advance of the workshop.
-NB no knowledge of programming is required for this workshop.
+We will be working with Visual Studio Code / RStudio as main editors. Although recommended, they do not need to be installed in your local computers, since we will use Codespaces provided by Github, which already implement an interface ready to program an execute the code.
+Notebook versions are also useful, such as Jupyter notebooks (for the Python version), or Rmd files (for the R version). 
+If you want to use notebooks for the practical sessions, we recommend install Anaconda from https://www.anaconda.com in advance of the workshop.
 
 ## Getting Started
 
@@ -50,13 +50,11 @@ NB no knowledge of programming is required for this workshop.
 4. Alternatively, you can run the notebooks online using Binder: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnpinney/sampling_and_hypothesis_testing/master?urlpath=lab)
 
-
 ## Evaluation
 
 Your feedback is very important to the Graduate School as we are continually trying to improve the training we offer.
 
 At the end of the course, please help us by completing the evaluation form at http://bit.ly/rcds2021
-
 
 <hr>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
