@@ -1,11 +1,15 @@
 # RCDS Introduction to Statistics and random sampling
 # Jesus Urtasun Elizari - Imperial College London
-# Chapter 1 - Random variables and probability distributions
+# Chapter 3 - Hypothesis testing
 
-# Import libraries
+
+# Import libraries .............................................................
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import t, ttest_1samp
+
+
+# Hypothesis testing ..........................................................
 
 def t_test(sample_data, pop_mean):
     """
