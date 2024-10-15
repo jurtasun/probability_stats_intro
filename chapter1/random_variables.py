@@ -1,9 +1,9 @@
-# RCDS Introduction to Statistics and random sampling
-# Jesus Urtasun Elizari - Imperial College London
+# RCDS Introduction to statistics and random sampling
+# Jesus Urtasun Elizari - Imperial College London 2024 / 2025
 # Chapter 1 - Random variables and probability distributions
 
 
-# Import libraries
+# Import libraries ............................................................
 import numpy as np
 from math import comb, exp, factorial, erf, sqrt
 from scipy import stats
