@@ -1,45 +1,50 @@
-# RCDS - Introduction to probability & statistical inference
+## RCDS - Introduction to probability & statistical inference
 
-## Dr. Jesús Urtasun Elizari
+### Dr. Jesús Urtasun Elizari
 
-## Imperial College London - 2024 / 2025
+### Imperial College London - 2024 / 2025
 
 <img src="/readme_figures/grad-school-logo.png">
 
 ### Find the content of the course in GitHub:
 [https://github.com/jurtasun/probability_stats_intro](https://github.com/jurtasun/probability_stats_intro)
 
-This course provides an introduction to the field of probability and statistical inference. The topics covered will include basic concepts on probability theory, inference, distributions, and hypothesis testing. The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
+This course provides an introduction to the field of probability and statistical inference.
+The topics covered will include basic concepts on probability theory, inference, distributions, and hypothesis testing. 
+The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
 
-The course is organized in three chapters, covering topics listed below. All will be followed by a practical session and hands-on coding, both in Python and R. No prior experience on statistics or programming is required for the attendance of this course.
+The course is organized in three chapters, covering topics listed below. 
+All will be followed by a practical session and hands-on coding, both in Python and R.
+No prior experience on statistics or programming is required for the attendance of this course.
 
-# Roadmap of the course
+## Roadmap of the course
 
-## Chapter 1. Introduction to probability & random variables.
+### Chapter 1. Introduction to probability & random events.
 
-- What is probability and random variables.
-- Discrete probability distributions; "mass" distributions.
-- Continuous probability distributions; "density" distributions.
+- Definition of probability and random events.
+- Discrete probability; "mass" distributions.
+- Continuous probability; "density" distributions.
 
-## Chapter 2. Momenta of a distribution & the Central Limit Theorem.
+### Chapter 2. Expected values & parameter estimation.
 
-- Quantify how events are distributed. Momenta of a distribution.
-- Computing mean, variance, skewness, kurtosis.
+- Mean and variance as expected value.
+- Mean and variance as momenta of a distribution.
 - The Law of Large Numbers (LLN) and the Central Limit Theorem (CLT).
 
-## Chapter 3. Introduction to hypothesis testing.
+### Chapter 3. Introduction to hypothesis testing.
 
-- Introduction to hypothesis testing. Prediction vs inference.
+- Prediction vs inference. Formulating hypothesis.
 - General approach. Quantify significance and p-values.
-- Real example, comparing two means. Two sample t-test.
+- Compare sample mean to known population mean. One sample t-test.
+- Comparing two sample means. Two sample t-test.
 
-## Setup
+### Setup
 
 We will be working with Visual Studio Code / RStudio as main editors. Although recommended, they do not need to be installed in your local computers, since we will use Codespaces provided by Github, which already implement an interface ready to program an execute the code.
 Notebook versions are also useful, such as Jupyter notebooks (for the Python version), or Rmd files (for the R version). 
 If you want to use notebooks for the practical sessions, we recommend install Anaconda from https://www.anaconda.com in advance of the workshop.
 
-## Getting Started
+### Getting Started
 
 1. Download this repository to your computer as a ZIP file and unpack it.
 
@@ -50,10 +55,9 @@ If you want to use notebooks for the practical sessions, we recommend install An
 4. Alternatively, you can run the notebooks online using Binder: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnpinney/sampling_and_hypothesis_testing/master?urlpath=lab)
 
-## Evaluation
+### Evaluation
 
 Your feedback is very important to the Graduate School as we are continually trying to improve the training we offer.
-
 At the end of the course, please help us by completing the evaluation form at http://bit.ly/rcds2021
 
 <hr>
