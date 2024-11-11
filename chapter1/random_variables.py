@@ -1,13 +1,13 @@
-# RCDS Introduction to Statistics and random sampling
-# Jesus Urtasun Elizari - Imperial College London
-# Chapter 1 - Random variables and probability distributions
+# RCDS Introduction to probability and statistical inference.
+# Jesús Urtasun Elizari. ICL 2024 / 2025.
+# Chapter 1. Introduction to probability and random events.
 
 
 # Import libraries
 import numpy as np
 from math import comb, exp, factorial, erf, sqrt
 from scipy import stats
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # Binomial distribution .......................................................
