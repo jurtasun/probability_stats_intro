@@ -23,7 +23,6 @@ variance_observations_manual = sum(squared_diffs) / len(observations)
 print("Variance as expected squared deviation (numpy):", variance_observations_np)
 print("Variance as expected squared deviation (manual):", variance_observations_manual)
 
-
 # Mean and variance as momenta of distribution .................................................... 
 
 # Simulate a probability distribution (example with outcomes and probabilities)
