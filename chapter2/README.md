@@ -18,6 +18,7 @@ Import the libraries neeed for these examples.
 import numpy as np
 from math import comb, exp, factorial, erf, sqrt
 from scipy import stats
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 ```
@@ -62,16 +63,19 @@ print("Variance as second moment of the distribution:", variance_distribution)
 
 ```
 
-### The law of large numbers and the central limit theorem
-
-The central limit theorem:
+### The central limit theorem:
 
 ```python
 
-# We simulate 1,000 samples of size 30 for both dice rolls and waiting times
+# Set up seaborn for prettier plots
+sns.set(style = "whitegrid")
+
+# Central Limit Theorem (CLT) .....................................................................
+print("The central limit theorem (CLT)")
+
+# We simulate 1,000 samples of size 30 for both dice rolls and waiting times.
 # For each sample, we calculate the mean and store it.
-# We then plot the distribution of these sample means. 
-# According to the CLT, these distributions should approximate a normal distribution centered around the true mean.
+# We then plot the distribution of these sample means, should approximate a normal distribution centered around the true mean.
 
 # Parameters
 sample_size = 30 # Size of each sample
@@ -117,18 +121,29 @@ plt.show()
 
 ```
 
-The law of large numbers:
+### The law of large numbers:
 
 ```python
+
+# Set up seaborn for prettier plots
+sns.set(style = "whitegrid")
+
+# Central Limit Theorem (CLT) .....................................................................
+print("The central limit theorem (CLT)")
+
+# We simulate 5,000 rolls for the dice and 5,000 samples from the waiting times.
+# For each sample size from 1 to 5,000, we calculate the running mean.
+# We plot the running mean to show how it converges to the true mean, illustrating the LLN.
+
+# True means for comparison
+dice_mean = 3.5 # True mean for a six-sided die
+waiting_times = np.array([1, 2, 2, 3, 5, 10, 15, 20, 30, 60])
+waiting_time_mean = np.mean(waiting_times) # True mean for waiting times
 
 # Parameters
 # num_samples = 50 # Number of samples for LLN
 # num_samples = 500 # Number of samples for LLN
 num_samples = 5000 # Number of samples for LLN
-
-# We simulate 5,000 rolls for the dice and 5,000 samples from the waiting times.
-# For each sample size from 1 to 5,000, we calculate the running mean.
-# We plot the running mean to show how it converges to the true mean, illustrating the LLN.
 
 # Dice Running Mean
 dice_rolls = np.random.randint(1, 7, num_samples)  # Simulate 5000 dice rolls
