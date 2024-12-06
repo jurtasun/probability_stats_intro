@@ -9,7 +9,7 @@
 ### Find the content of the course in GitHub:
 [https://github.com/jurtasun/probability_stats_intro](https://github.com/jurtasun/probability_stats_intro)
 
-This course provides an introduction to the field of probability and statistical inference.
+bbb This course provides an introduction to the field of probability and statistical inference.
 The topics covered will include basic concepts on probability theory, inference, distributions, and hypothesis testing. 
 The aim of the course is to provide strong foundations at the mathematical and theoretical level, while providing practical exercises to work on real data.
 
